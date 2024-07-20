@@ -1,6 +1,6 @@
 package com.ganesh.productservice.security;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
+/*import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -26,4 +26,4 @@ public class CustomAuthenticationEntryPoint implements AuthenticationEntryPoint 
         mapper.writeValue(responseStream, re);
         responseStream.flush();
     }
-}
+}*/

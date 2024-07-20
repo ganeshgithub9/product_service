@@ -1,6 +1,6 @@
 package com.ganesh.productservice.security;
 
-import org.springframework.core.convert.converter.Converter;
+/*import org.springframework.core.convert.converter.Converter;
 import org.springframework.security.authentication.AbstractAuthenticationToken;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -38,4 +38,4 @@ public class CustomJwtAuthenticationConverter implements Converter<Jwt, Abstract
                 .collect(Collectors.toSet());
         return new JwtAuthenticationToken(source, authorities);
     }
-}
+}*/
